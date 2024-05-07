@@ -18,7 +18,7 @@ void debugPrints(){
   //Serial.print(Coach_Current);Serial.print(',');
   //Serial.print(Freight_Batteries);Serial.print(',');
   //Serial.print(Freight_Current);Serial.print(',');
-  if(scd30_avail = true){
+  if((scd30_avail = true)){
     Serial.print(scd30.temperature);Serial.print(',');
     Serial.print(scd30.relative_humidity);Serial.print(',');
     Serial.print(scd30.CO2, 3);Serial.print(',');
